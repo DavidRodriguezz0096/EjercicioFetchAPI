@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+
+.pokemon-container {
+   background-color: lightslategray;
+   padding: 0px;
+   border: 2px solid #ccc;
+   font-family: 'Cabin', sans-serif;
+   
+}
+
+.pokemon-card {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: darkgoldenrod;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.pokemon-card {
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    
+}
+
+.pokemon-card img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.pokemon-card h2 {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: 'Cabin', sans-serif;
+}
+
